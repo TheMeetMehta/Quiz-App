@@ -1,0 +1,14 @@
+.answers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Space between items */
+}
+
+.answer-item {
+    display: flex;
+    align-items: center;
+}
+
+.answer-item label {
+    margin-left: 5px;
+}
